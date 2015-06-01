@@ -13,17 +13,19 @@ gem 'omniauth-pavlok'
 
 And then execute:
 
-    $ bundle
+  `$ bundle`
 
 Or install it yourself as:
 
-    $ gem install omniauth-pavlok
+  `$ gem install omniauth-pavlok`
 
 ## Usage
 
-use OmniAuth::Builder do
-  provider :pavlok, ENV['PAVLOK_KEY'], ENV['PAVLOK_SECRET']
-end
+  ```ruby
+  use OmniAuth::Builder do
+    provider :pavlok, ENV['PAVLOK_KEY'], ENV['PAVLOK_SECRET']
+  end
+  ```
 
 ## MIT License
 
