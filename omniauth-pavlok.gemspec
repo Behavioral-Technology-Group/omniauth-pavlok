@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = OmniAuth::Pavlok::VERSION
   spec.authors       = ["Pavlok"]
   spec.email         = ["team@pavlok.com"]
-  spec.summary       = %q{Pavlok OmniAuth Strategy}
-  spec.description   = %q{Pavlok OmniAuth Strategy}
+  spec.summary       = %q{Pavlok OmniAuth strategy}
+  spec.description   = %q{Pavlok OmniAuth strategy to make Ruby/Rails OmniAuth clients easier to implement.}
   spec.homepage      = "http://pavlok.com"
   spec.license       = "MIT"
 
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency 'rspec', '~> 2.99'
-  spec.add_development_dependency 'rack-test'
-  spec.add_development_dependency 'simplecov'
-  spec.add_development_dependency 'webmock'
+  spec.add_development_dependency 'rack-test', '~> 0.6'
+  spec.add_development_dependency 'simplecov', '~> 0.10'
+  spec.add_development_dependency 'webmock', '~> 1.21'
 end
